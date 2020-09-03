@@ -10,7 +10,7 @@ Run via a `docker` `ENTRYPOINT` check: <https://phoenixnap.com/kb/docker-cmd-vs-
 
 **EXAMPLE**:
 ```bash
-docker run quay.io/awesome/docker-istio:latest "APIKEY" "CLUSTER" "NAMESPACE"
+docker run quay.io/ibm-advocados/docker-istio:latest "APIKEY" "CLUSTER" "NAMESPACE"
 ```
 
 ## License & Authors
