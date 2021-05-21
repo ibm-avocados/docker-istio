@@ -14,7 +14,7 @@ ibmcloud login --apikey "${1}" -r "us-south"
 sleep 2
 ibmcloud ks cluster config --cluster $2
 sleep 2
-istioctl install --set profile=demo
+istioctl install --set profile=demo -y
 sleep 2
 kubectl label namespace $3 istio-injection=enabled
 sleep 2
