@@ -4,7 +4,7 @@ ISTIO_VERSION="1.7.2"
 
 ibmcloud plugin install -f kubernetes-service
 sleep 20
-ibmcloud login --apikey $1
+ibmcloud login --apikey "${1}" -r "us-south"
 sleep 20
 ibmcloud ks cluster config --cluster $2
 sleep 20
